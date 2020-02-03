@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deserter97.github.io/</id>
     <title>Deserter97</title>
-    <updated>2020-02-03T04:17:40.742Z</updated>
+    <updated>2020-02-03T04:34:50.969Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deserter97.github.io/"/>
     <link rel="self" href="https://deserter97.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>Deserter97_Blog</subtitle>
     <logo>https://deserter97.github.io/images/avatar.png</logo>
     <icon>https://deserter97.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Deserter97</rights>

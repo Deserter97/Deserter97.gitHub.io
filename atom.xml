@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://deserter97.github.io/</id>
-    <title>Gridea</title>
-    <updated>2020-02-03T04:09:53.539Z</updated>
+    <title>Deserter97</title>
+    <updated>2020-02-03T04:13:51.215Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://deserter97.github.io/"/>
     <link rel="self" href="https://deserter97.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://deserter97.github.io/images/avatar.png</logo>
     <icon>https://deserter97.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, Deserter97</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://deserter97.github.io/post/hello-gridea</id>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://e.coding.net/Deserter97/Deserter97.git</id>
+    <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-03T10:36:56.036Z</updated>
+    <updated>2020-02-03T10:41:28.033Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://e.coding.net/Deserter97/Deserter97.git"/>
-    <link rel="self" href="https://e.coding.net/Deserter97/Deserter97.git/atom.xml"/>
+    <link rel="alternate" href="https://Deserter97.gitHub.io"/>
+    <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
     <subtitle>属于我自己的小站</subtitle>
-    <logo>https://e.coding.net/Deserter97/Deserter97.git/images/avatar.png</logo>
-    <icon>https://e.coding.net/Deserter97/Deserter97.git/favicon.ico</icon>
+    <logo>https://Deserter97.gitHub.io/images/avatar.png</logo>
+    <icon>https://Deserter97.gitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Deserter97</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://e.coding.net/Deserter97/Deserter97.git/post/hello-gridea</id>
-        <link href="https://e.coding.net/Deserter97/Deserter97.git/post/hello-gridea">
+        <id>https://Deserter97.gitHub.io/post/hello-gridea</id>
+        <link href="https://Deserter97.gitHub.io/post/hello-gridea">
         </link>
         <updated>2020-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
@@ -44,20 +44,20 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[王者荣耀每日任务系统拆分]]></title>
-        <id>https://e.coding.net/Deserter97/Deserter97.git/post/wang-zhe-rong-yao-mei-ri-ren-wu-xi-tong-chai-fen</id>
-        <link href="https://e.coding.net/Deserter97/Deserter97.git/post/wang-zhe-rong-yao-mei-ri-ren-wu-xi-tong-chai-fen">
+        <id>https://Deserter97.gitHub.io/post/wang-zhe-rong-yao-mei-ri-ren-wu-xi-tong-chai-fen</id>
+        <link href="https://Deserter97.gitHub.io/post/wang-zhe-rong-yao-mei-ri-ren-wu-xi-tong-chai-fen">
         </link>
         <updated>2019-11-30T08:09:02.000Z</updated>
         <content type="html"><![CDATA[<h1 id="1概述">1.概述</h1>
 <p>每日任务系统是每个重度手游都拥有的系统。</p>
 <h1 id="2入口">2.入口</h1>
 <p>主界面右下角妲己头像。<br>
-<img src="https://e.coding.net/Deserter97/Deserter97.git/post-images/1580719485144.png" alt="" loading="lazy"></p>
+<img src="https://Deserter97.gitHub.io/post-images/1580719485144.png" alt="" loading="lazy"></p>
 <h1 id="3开启条件">3.开启条件</h1>
 <p>每名玩家默认开启每日任务系统。</p>
 <h1 id="4功能流程">4.功能流程</h1>
 <p>4.1主界面<br>
-<img src="https://e.coding.net/Deserter97/Deserter97.git/post-images/1580719638024.png" alt="" loading="lazy"><br>
+<img src="https://Deserter97.gitHub.io/post-images/1580719638024.png" alt="" loading="lazy"><br>
 界面说明<br>
 每日任务</p>
 <ul>
@@ -84,7 +84,7 @@
 </ul>
 <h1 id="42任务">4.2任务</h1>
 <p>4.2.1任务内容<br>
-<img src="https://e.coding.net/Deserter97/Deserter97.git/post-images/1580720686092.png" alt="" loading="lazy"></p>
+<img src="https://Deserter97.gitHub.io/post-images/1580720686092.png" alt="" loading="lazy"></p>
 <ul>
 <li>图标<br>
 1.以下方任务类型对图标进行风格区分</li>
@@ -122,7 +122,7 @@
 铭文月卡/周卡<br>
 <code>月卡部分，是已经购买对应的月卡玩家，可以以任务的形式，在这个功能里领取对应奖励</code><br>
 4.2.2.2随机任务<br>
-<img src="https://e.coding.net/Deserter97/Deserter97.git/post-images/1580722133948.png" alt="" loading="lazy"></li>
+<img src="https://Deserter97.gitHub.io/post-images/1580722133948.png" alt="" loading="lazy"></li>
 <li>随机任务<br>
 1.配置一组任务，每日随机抽出其中一个，显示在任务列表内<br>
 <code>偏上的位置，方便玩家点进来看到</code><br>
@@ -140,9 +140,9 @@
 2.将这个ID配置给单独的每个任务跳转，这样点击跳转按钮，就能跳转到到对应的功能界面</li>
 <li>其他状态<br>
 1.可领取状态<br>
-<img src="https://e.coding.net/Deserter97/Deserter97.git/post-images/1580722420712.png" alt="" loading="lazy"><br>
+<img src="https://Deserter97.gitHub.io/post-images/1580722420712.png" alt="" loading="lazy"><br>
 2.已领取状态<br>
-<img src="https://e.coding.net/Deserter97/Deserter97.git/post-images/1580722468050.png" alt="" loading="lazy"><br>
+<img src="https://Deserter97.gitHub.io/post-images/1580722468050.png" alt="" loading="lazy"><br>
 4.2.4任务流程</li>
 <li>玩家可以点击跳转按钮，跳转到对应页面，从而完成先要完成的任务内容<br>
 1.不通过点击“前往”按钮，也可以完成任务<br>
@@ -160,7 +160,7 @@
 1.填充每日活跃进度条<br>
 2.辅助数值到周活跃<br>
 4.3每日宝箱<br>
-<img src="https://e.coding.net/Deserter97/Deserter97.git/post-images/1580722671907.png" alt="" loading="lazy"></li>
+<img src="https://Deserter97.gitHub.io/post-images/1580722671907.png" alt="" loading="lazy"></li>
 <li>每日活跃度<br>
 1.通过完成当天的每日任务，领取任务奖励，获得每日活跃度<br>
 2.活跃度做成具体的道具，配置在单独每个任务奖励中</li>
@@ -175,14 +175,14 @@
 <code>未达到 可领取 已领取</code><br>
 3.查看奖励<br>
 <code>玩家在“未达到”和“已领取”状态可以长按宝箱，查看奖励</code><br>
-<img src="https://e.coding.net/Deserter97/Deserter97.git/post-images/1580722844986.png" alt="" loading="lazy"><br>
+<img src="https://Deserter97.gitHub.io/post-images/1580722844986.png" alt="" loading="lazy"><br>
 <code>上方显示宝箱图标，宝箱名，拥有数量</code><br>
 <code>下方显示领取需求，领取获得奖励，概率获得奖励</code></li>
 <li>领取奖励<br>
 1.“可领取”状态时，会有闪烁光效，提示点击<br>
 2.点击直接领取，不能查看<br>
 4.4每周宝箱<br>
-<img src="https://e.coding.net/Deserter97/Deserter97.git/post-images/1580722988622.png" alt="" loading="lazy"></li>
+<img src="https://Deserter97.gitHub.io/post-images/1580722988622.png" alt="" loading="lazy"></li>
 <li>每周活跃度<br>
 1.玩家每次完成每日任务后，领取的每日活跃度，处理填充每日活跃条外，也复制该数值，记录并加入本周活跃度内</li>
 <li>每周宝箱<br>
@@ -200,7 +200,7 @@
 #6.小红点提示<br>
 1.有可领取奖励的任务或宝箱，未领取时，外侧入口会有小红点提示<br>
 2.小红点会标记可领取数量<br>
-<img src="https://e.coding.net/Deserter97/Deserter97.git/post-images/1580723131895.png" alt="" loading="lazy"><br>
+<img src="https://Deserter97.gitHub.io/post-images/1580723131895.png" alt="" loading="lazy"><br>
 #7.日志记录<br>
 <code>记录玩家领取任务奖励</code><br>
 <code>记录玩家领取每日宝箱奖励</code><br>

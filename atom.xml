@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-03T13:37:43.476Z</updated>
+    <updated>2020-02-03T14:03:20.145Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://Deserter97.gitHub.io/images/avatar.png</logo>
     <icon>https://Deserter97.gitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Deserter97</rights>
+    <entry>
+        <title type="html"><![CDATA[明日方舟签到系统拆分]]></title>
+        <id>https://Deserter97.gitHub.io/post/ming-ri-fang-zhou-qian-dao-xi-tong-chai-fen</id>
+        <link href="https://Deserter97.gitHub.io/post/ming-ri-fang-zhou-qian-dao-xi-tong-chai-fen">
+        </link>
+        <updated>2020-02-03T13:51:52.000Z</updated>
+        <content type="html"><![CDATA[<p>#1.概述<br>
+对每天登陆的玩家进行奖励，通过连续登陆奖励加倍，增加玩家每天登陆的欲望，希望玩家养成一个每天登陆游戏的习惯。<br>
+#2.入口<br>
+主界面左上角日历标志<br>
+<img src="https://Deserter97.gitHub.io/post-images/1580738400394.png" alt="" loading="lazy"><br>
+#3.开启条件<br>
+1.每名玩家当天初次登陆游戏自动开启<br>
+2.玩家通过手动点击图标自行开启</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[王者荣耀每日任务系统拆分]]></title>
         <id>https://Deserter97.gitHub.io/post/wang-zhe-rong-yao-mei-ri-ren-wu-xi-tong-chai-fen</id>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-04T03:42:55.113Z</updated>
+    <updated>2020-02-04T13:35:10.349Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -30,37 +30,23 @@
         <link href="https://Deserter97.gitHub.io/post/ming-ri-fang-zhou-qian-dao-xi-tong-chai-fen">
         </link>
         <updated>2020-02-03T13:51:52.000Z</updated>
-        <content type="html"><![CDATA[<p>#1.概述<br>
+        <content type="html"><![CDATA[<p><strong>1.概述</strong><br>
 对每天登陆的玩家进行奖励，通过连续登陆奖励加倍，增加玩家每天登陆的欲望，希望玩家养成一个每天登陆游戏的习惯。<br>
-#2.入口<br>
+<strong>2.入口</strong><br>
 主界面左上角日历标志<br>
 <img src="https://Deserter97.gitHub.io/post-images/1580738400394.png" alt="" loading="lazy"><br>
-#3.开启条件<br>
+<strong>3.开启条件</strong><br>
 1.每名玩家当天初次登陆游戏自动开启<br>
-2.玩家通过手动点击图标自行开启</p>
+2.玩家通过手动点击图标自行开启<br>
+<strong>4功能流程</strong><br>
+4.1主界面<br>
+<img src="https://Deserter97.gitHub.io/post-images/1580823255083.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[剑与远征游戏分析一]]></title>
         <id>https://Deserter97.gitHub.io/post/jian-yu-yuan-zheng-you-xi-fen-xi-yi</id>
         <link href="https://Deserter97.gitHub.io/post/jian-yu-yuan-zheng-you-xi-fen-xi-yi">
-        </link>
-        <updated>2020-01-20T03:33:52.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="1游戏脑图">1.游戏脑图</h1>
-<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1580787352705.png" alt="" loading="lazy"></figure>
-<h1 id="2游戏闭环">2.游戏闭环</h1>
-<figure data-type="image" tabindex="2"><img src="https://Deserter97.gitHub.io/post-images/1580787362804.png" alt="" loading="lazy"></figure>
-<h1 id="3游戏受众群体">3.游戏受众群体</h1>
-<p>放置挂机类游戏的操作简单，易于上手，比较耐玩，对玩家的时间要求更加碎片化，所以受众群体大多是游戏经验相对较少，或日常时间不算足够充裕的玩家</p>
-<h1 id="4以挂机作为主要资源产出的优点与不足">4.以挂机作为主要资源产出的优点与不足</h1>
-<p><strong>优点</strong>：以挂机作为主要资源产出会使游戏变得不那么肝，能够很好地满足日常时间不太充足玩的的游戏需求</p>
-<p><strong>不足</strong>：以挂机作为主要资源产出会降低用户的在线率，玩家需要间隔一段时间之后重新回到游戏中来进行角色的提升，同时挂机类游戏主要消耗的因素是时间，因此，新老玩家之间会有很明显的差距，新玩家想要追赶上老玩家之间的距离会变得很大</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[剑与远征游戏分析]]></title>
-        <id>https://Deserter97.gitHub.io/post/jian-yu-yuan-zheng-you-xi-fen-xi</id>
-        <link href="https://Deserter97.gitHub.io/post/jian-yu-yuan-zheng-you-xi-fen-xi">
         </link>
         <updated>2020-01-20T03:33:52.000Z</updated>
         <content type="html"><![CDATA[<h1 id="1游戏脑图">1.游戏脑图</h1>

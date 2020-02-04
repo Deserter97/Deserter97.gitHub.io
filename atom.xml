@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-04T15:36:21.847Z</updated>
+    <updated>2020-02-04T15:37:05.170Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -10,20 +10,6 @@
     <logo>https://Deserter97.gitHub.io/images/avatar.png</logo>
     <icon>https://Deserter97.gitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Deserter97</rights>
-    <entry>
-        <title type="html"><![CDATA[聊天系统策划案]]></title>
-        <id>https://Deserter97.gitHub.io/post/liao-tian-xi-tong-ce-hua-an</id>
-        <link href="https://Deserter97.gitHub.io/post/liao-tian-xi-tong-ce-hua-an">
-        </link>
-        <updated>2020-02-03T14:04:23.000Z</updated>
-        <content type="html"><![CDATA[<p>#1.概述<br>
-1.设计目的：网络游戏中聊天系统是玩家交互的重要系统，一个好的聊天系统可以促进玩家之间的交流，加强玩家之间的信息互动，增强玩家之间的感情<br>
-2.要求：能够满足好友之间的聊天，陌生人之间的聊天，游戏大厅喊话功能等，同时还要防止玩家恶意刷屏和广告以及违禁信息屏蔽<br>
-#2.聊天系统基本功能<br>
-2.1聊天窗口显示所有功能<br>
-<code>界面设计</code></p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[明日方舟签到系统拆分]]></title>
         <id>https://Deserter97.gitHub.io/post/ming-ri-fang-zhou-qian-dao-xi-tong-chai-fen</id>
@@ -265,6 +251,20 @@ N=0;<br>
 <code>记录玩家领取每日宝箱奖励</code><br>
 <code>记录玩家领取每周宝箱奖励</code></li>
 </ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[聊天系统策划案]]></title>
+        <id>https://Deserter97.gitHub.io/post/liao-tian-xi-tong-ce-hua-an</id>
+        <link href="https://Deserter97.gitHub.io/post/liao-tian-xi-tong-ce-hua-an">
+        </link>
+        <updated>2019-10-20T14:04:23.000Z</updated>
+        <content type="html"><![CDATA[<p>#1.概述<br>
+1.设计目的：网络游戏中聊天系统是玩家交互的重要系统，一个好的聊天系统可以促进玩家之间的交流，加强玩家之间的信息互动，增强玩家之间的感情<br>
+2.要求：能够满足好友之间的聊天，陌生人之间的聊天，游戏大厅喊话功能等，同时还要防止玩家恶意刷屏和广告以及违禁信息屏蔽<br>
+#2.聊天系统基本功能<br>
+2.1聊天窗口显示所有功能<br>
+<code>界面设计</code></p>
 ]]></content>
     </entry>
     <entry>

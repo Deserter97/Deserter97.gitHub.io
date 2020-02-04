@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-04T15:37:05.170Z</updated>
+    <updated>2020-02-04T15:37:51.830Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -50,9 +50,9 @@
 <img src="https://Deserter97.gitHub.io/post-images/1580829965826.png" alt="" loading="lazy"></li>
 <li>未签到<br>
 <code>图片正常显示</code><br>
-图片左上角显示累积签到次数，右下角显示奖励数量，中间为奖励图标</li>
+<code>图片左上角显示累积签到次数，右下角显示奖励数量，中间为奖励图标</code></li>
 <li>UI层级关系<br>
-签到次数&gt;白色对号&gt;灰色/层数图片&gt;奖励数量&gt;材料图标<br>
+<code>签到次数&gt;白色对号&gt;灰色/层数图片&gt;奖励数量&gt;材料图标</code><br>
 4.2用户操作流程图<br>
 <img src="https://Deserter97.gitHub.io/post-images/1580828591869.png" alt="" loading="lazy"><br>
 <strong>5.签到规则</strong><br>

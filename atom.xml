@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-06T08:26:22.727Z</updated>
+    <updated>2020-02-06T10:53:50.521Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -21,14 +21,98 @@
 <p>增强游戏美术的表现力，提升玩家对于游戏的第一印象</p>
 <h1 id="2登陆总体流程">2.登陆总体流程</h1>
 <h2 id="21登陆总体流程图">2.1登陆总体流程图</h2>
-<p><img src="https://Deserter97.gitHub.io/post-images/1580976879037.png" alt="" loading="lazy"><br>
-2.2客户端加载与修复流程图<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580976997112.png" alt="" loading="lazy"></p>
+<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1580976879037.png" alt="" loading="lazy"></figure>
+<h2 id="22客户端加载与修复流程图">2.2客户端加载与修复流程图</h2>
+<figure data-type="image" tabindex="2"><img src="https://Deserter97.gitHub.io/post-images/1580976997112.png" alt="" loading="lazy"></figure>
 <h1 id="3加载与修复客户端">3.加载与修复客户端</h1>
 <h2 id="31加载图">3.1加载图</h2>
 <p>1.打开APP之后立即加载一张图片<br>
 2.加载界面图片要和游戏修复界面图片保护一致</p>
-<h2 id="32">3.2</h2>
+<h2 id="32更新界面">3.2更新界面</h2>
+<p>更新界面需要有以下几点展示内容：<br>
+1.背景图<br>
+2.当前更新状态<br>
+3.当前更新状态解释<br>
+4.进度条</p>
+<h3 id="321检查更新">3.2.1检查更新</h3>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580978750756.png" alt="" loading="lazy"><br>
+<code>如果玩家正处于移动网络下，下载前需要告知玩家此次下载的数据量，玩家点击确认之后才可以更新，处于无线网络下则可以直接更新</code></p>
+<h3 id="322移动网络确认">3.2.2移动网络确认</h3>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580979284837.png" alt="" loading="lazy"><br>
+<code>点击确认下载，点击取消则留下更新按钮，点击更新在即检查更新流程，处于断线重连是文字改为“处于移动网络下，本次剩余xxm，是否继续下载？”</code></p>
+<h3 id="323下载更新">3.2.3下载更新</h3>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580979579133.png" alt="" loading="lazy"><br>
+下载更新需要注意以下几点：<br>
+1.显示下载状态，下载文件进度，当前下载速度，进度百分比<br>
+2.下载文件进度，以m为单位，当前速度以kb/s为单位，超过1024k/s以m/s为单位<br>
+3.需要支持断线重新连接，更新过程退出，网络连接中断，重新更新时重新检查更新，并以上次的进度仅需更新<br>
+4.更新期间，检测玩家网络变化，如果从无线网络变更为移动网络，停止下载，并弹出确认框，确认继续下载，去下退出</p>
+<h3 id="324安装更新">3.2.4安装更新</h3>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580979791919.png" alt="" loading="lazy"><br>
+<code>更新下载完毕之后，开始进入安装更新流程</code><br>
+<code>完成安装之后载入游戏CG或者开始登陆流程</code></p>
+<h1 id="4登陆界面流程图">4.登陆界面流程图</h1>
+<figure data-type="image" tabindex="3"><img src="https://Deserter97.gitHub.io/post-images/1580979964180.png" alt="" loading="lazy"></figure>
+<h1 id="5登陆界面示意图">5.登陆界面示意图</h1>
+<h2 id="51公告显示">5.1公告显示</h2>
+<figure data-type="image" tabindex="4"><img src="https://Deserter97.gitHub.io/post-images/1580980812312.png" alt="" loading="lazy"></figure>
+<ul>
+<li>公告界面在玩家每次打开游戏客户端时会自动弹出一次</li>
+<li>公告内容层级划分<br>
+1.主标题：公告<br>
+2.副标题：大模块或活动<br>
+3.子标题：参与方式，奖励等<br>
+4.内容：模块或活动的具体内容</li>
+</ul>
+<h2 id="52登陆方式选择">5.2登陆方式选择</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580981881519.png" alt="" loading="lazy"><br>
+<code>所以界面中心存在登陆框时，其他界面的按钮自动隐藏</code><br>
+<code>当客户端没有登陆过账号时，关闭公告之后自动弹出此界面</code><br>
+<code>点击不同的登陆方式进入对应的登陆方式</code></p>
+<h2 id="53手机号登陆">5.3手机号登陆</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580982390210.png" alt="" loading="lazy"><br>
+<code>点击手机号登陆进入此界面</code><br>
+<img src="https://Deserter97.gitHub.io/post-images/1580982587488.png" alt="" loading="lazy"><br>
+<code>输入手机号时弹出数字键盘</code><br>
+<code>手机号格式错误屏幕中心弹出提示“手机号格式错误！”，提示2s后自动消失</code></p>
+<h2 id="54输入验证码">5.4输入验证码</h2>
+<h3 id="541验证码输入界面">5.4.1验证码输入界面</h3>
+<p><em>在5.3中手机号输入格式正确，则会发送含有验证码的短信，同时跳转到此界面</em><br>
+<img src="https://Deserter97.gitHub.io/post-images/1580983379549.png" alt="" loading="lazy"><br>
+<code>输入验证码时弹出数字键盘</code><br>
+<code>验证码验证错误时界面中心弹出提示“验证码输入错误”</code><br>
+<code>初次登陆或者没有创建密码的的手机号码不显示账号登录选项，验证码输入正确后，自动创建手机账号，弹出设置密码界面，界面可以选择跳过，使用当前手机账号登陆</code></p>
+<h3 id="542创建手机账号">5.4.2创建手机账号</h3>
+<p><em>5.4.1中验证通过后出现此界面</em><br>
+<img src="https://Deserter97.gitHub.io/post-images/1580984059975.png" alt="" loading="lazy"><br>
+<code>密码复杂度有平台决定</code><br>
+<code>已经有创建过账号则不显示此界面</code></p>
+<h2 id="55账号登陆">5.5账号登陆</h2>
+<p>在5.4.1输入验证码界面点击账号登录或在登陆方式中选择账号登陆则转到此界面<br>
+<img src="https://Deserter97.gitHub.io/post-images/1580984504244.png" alt="" loading="lazy"><br>
+<code>密码验证错误界面中心弹出提示“密码输入错误”</code><br>
+<code>点击忘记密码与注册账号会跳转到网页</code></p>
+<h2 id="56快速游戏">5.6快速游戏</h2>
+<p><em>在登陆方式中选择快速游戏则会转跳到此界面</em><br>
+<img src="https://Deserter97.gitHub.io/post-images/1580984983718.png" alt="" loading="lazy"><br>
+<code>游客账号的ID为随机生成且唯一</code><br>
+<code>点击确定进入登陆界面</code></p>
+<h2 id="57登陆界面">5.7登陆界面</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580985335034.png" alt="" loading="lazy"><br>
+1.区服：点击后弹出选区界面<br>
+2.公告：点击后可以查看当前游戏公告<br>
+3.账号：点击后可以查看当前登录账号<br>
+4.客服：点击后可以转跳客服界面<br>
+5.进入游戏：点击后开始游戏</p>
+<h2 id="58已有角色服务器">5.8已有角色服务器</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580985709161.png" alt="" loading="lazy"><br>
+<code>点击已有角色服务器显示曾经有创建过角色的区服</code><br>
+<code>点击对应区服直接进行登录</code><br>
+<code>对已有角色服务器进行特殊标识</code></p>
+<h2 id="59推荐服务器">5.9推荐服务器</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580986256450.png" alt="" loading="lazy"><br>
+<code>在区服界面展示服务器状态</code><br>
+<code>点击具体服务器之后关闭此界面，主界面选定此服务器，玩家点击开始游戏后开始正常游玩</code></p>
 ]]></content>
     </entry>
     <entry>

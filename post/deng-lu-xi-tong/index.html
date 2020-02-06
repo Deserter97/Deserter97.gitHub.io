@@ -49,61 +49,24 @@
         <main id="main" class="site-main" role="main">
             <article id="post-1270" class="post-1270 post type-post status-publish format-standard hentry category-90 category-129 tag-149">
                 <header class="entry-header">
-                    <h1 class="entry-title">明日方舟签到系统拆分</h1>
-                    <p class="entry-census">发布于 2020-02-03</p>
+                    <h1 class="entry-title">登陆系统</h1>
+                    <p class="entry-census">发布于 2020-02-06</p>
                     <hr>
                 </header>
                 <div class="neko">
                     <h1 id="1概述">1.概述</h1>
-<p>对每天登陆的玩家进行奖励，通过连续登陆奖励加倍，增加玩家每天登陆的欲望，希望玩家养成一个每天登陆游戏的习惯。</p>
-<h1 id="2入口">2.入口</h1>
-<p>主界面左上角日历标志<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580738400394.png" alt="" loading="lazy"></p>
-<h1 id="3开启条件">3.开启条件</h1>
-<p>1.每名玩家当天初次登陆游戏自动开启<br>
-2.玩家通过手动点击图标自行开启</p>
-<h1 id="4功能流程">4.功能流程</h1>
-<h2 id="41主界面">4.1主界面</h2>
-<p><img src="https://Deserter97.gitHub.io/post-images/1580825456553.png" alt="" loading="lazy"><br>
-界面说明<br>
-1.签到月份：显示当前签到月份<br>
-2.签到次数：通过数字显示玩家当前月份所累积的签到次数，玩家通过签到次数获得对应的奖励<br>
-3.功能描述：告知玩家此功能模块的作用<br>
-4.刷新时间：通过倒计时的方式告知玩家下一次签到需要间隔多久，媒体那六点重置为24小时<br>
-5.奖励类型：显示当前签到获取的奖励类型<br>
-6.奖励名称：显示当前签到获取的奖励名称<br>
-7.奖励数量：显示当前签到获得的奖励数量<br>
-8.奖励图标：显示当前签到获得的奖励图标<br>
-9.签到状态：根据玩家是否签到显示当前签到状态<br>
-10.退出按钮：点击可退出当前界面<br>
-<em>玩家当日初次进入主界面后自动弹出签到页面进行签到</em></p>
-<h2 id="42签到状态">4.2签到状态</h2>
-<p>1.当日已签到<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580829732030.png" alt="" loading="lazy"><br>
-<code>底层覆盖橙色图片，在其上打上白色对号</code><br>
-2.往日已签到<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580829862251.png" alt="" loading="lazy"><br>
-<code>底层覆盖灰色图片，在其上打上白色对号</code><br>
-未签到<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580829965826.png" alt="" loading="lazy"><br>
-<code>图片正常显示</code><br>
-<code>图片左上角显示累积签到次数，右下角显示奖励数量，中间为奖励图标</code><br>
-UI层级关系<br>
-<code>签到次数&gt;白色对号&gt;灰色/层数图片&gt;奖励数量&gt;材料图标</code></p>
-<h2 id="43用户操作流程图">4.3用户操作流程图</h2>
-<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1580828591869.png" alt="" loading="lazy"></figure>
-<h1 id="5签到规则">5.签到规则</h1>
-<p>设定N为玩家签到次数,每月N初始值为0，D为本月最大签到次数<br>
-when(平常日 Time=04:00)<br>
-if(玩家进行签到)<br>
-{<br>
-if（N&lt;=D）<br>
-{n=n+1;}<br>
-｝<br>
-when（每月最后一天 Time=24:00）<br>
-{<br>
-N=0;<br>
-}</p>
+<h2 id="11目的">1.1目的</h2>
+<p>增强游戏美术的表现力，提升玩家对于游戏的第一印象</p>
+<h1 id="2登陆总体流程">2.登陆总体流程</h1>
+<h2 id="21登陆总体流程图">2.1登陆总体流程图</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580976879037.png" alt="" loading="lazy"><br>
+2.2客户端加载与修复流程图<br>
+<img src="https://Deserter97.gitHub.io/post-images/1580976997112.png" alt="" loading="lazy"></p>
+<h1 id="3加载与修复客户端">3.加载与修复客户端</h1>
+<h2 id="31加载图">3.1加载图</h2>
+<p>1.打开APP之后立即加载一张图片<br>
+2.加载界面图片要和游戏修复界面图片保护一致</p>
+<h2 id="32">3.2</h2>
 
                 </div>
             </article>
@@ -113,20 +76,14 @@ N=0;<br>
         <div class="mdui-container">
             <div class="mdui-row">
                 
-                <a href="https://Deserter97.gitHub.io/post/deng-lu-xi-tong" class="mdui-ripple mdui-color-theme mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left">
-                    <div class="doc-footer-nav-text">
-                        <i class="mdui-icon material-icons">arrow_back</i>
-                        <span class="doc-footer-nav-direction mdui-hidden-xs-down">上一篇文章</span>
-                        <div class="doc-footer-nav-chapter mdui-hidden-xs-down">登陆系统</div>
-                    </div>
-                </a>
+                <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
                 
                 
-                <a href="https://Deserter97.gitHub.io/post/jian-yu-yuan-zheng-you-xi-fen-xi-yi" class="mdui-ripple mdui-color-theme mdui-col-xs-10 mdui-col-sm-6 doc-footer-nav-right">
+                <a href="https://Deserter97.gitHub.io/post/ming-ri-fang-zhou-qian-dao-xi-tong-chai-fen" class="mdui-ripple mdui-color-theme mdui-col-xs-10 mdui-col-sm-6 doc-footer-nav-right">
                     <div class="doc-footer-nav-text">
                         <i class="mdui-icon material-icons">arrow_forward</i>
                         <span class="doc-footer-nav-direction">下一篇文章</span>
-                        <div class="doc-footer-nav-chapter">剑与远征游戏分析一</div>
+                        <div class="doc-footer-nav-chapter">明日方舟签到系统拆分</div>
                     </div>
                 </a>
                 

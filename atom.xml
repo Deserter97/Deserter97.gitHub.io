@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-06T08:12:02.706Z</updated>
+    <updated>2020-02-06T08:26:22.727Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -11,22 +11,43 @@
     <icon>https://Deserter97.gitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Deserter97</rights>
     <entry>
+        <title type="html"><![CDATA[登陆系统]]></title>
+        <id>https://Deserter97.gitHub.io/post/deng-lu-xi-tong</id>
+        <link href="https://Deserter97.gitHub.io/post/deng-lu-xi-tong">
+        </link>
+        <updated>2020-02-06T08:12:05.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1概述">1.概述</h1>
+<h2 id="11目的">1.1目的</h2>
+<p>增强游戏美术的表现力，提升玩家对于游戏的第一印象</p>
+<h1 id="2登陆总体流程">2.登陆总体流程</h1>
+<h2 id="21登陆总体流程图">2.1登陆总体流程图</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580976879037.png" alt="" loading="lazy"><br>
+2.2客户端加载与修复流程图<br>
+<img src="https://Deserter97.gitHub.io/post-images/1580976997112.png" alt="" loading="lazy"></p>
+<h1 id="3加载与修复客户端">3.加载与修复客户端</h1>
+<h2 id="31加载图">3.1加载图</h2>
+<p>1.打开APP之后立即加载一张图片<br>
+2.加载界面图片要和游戏修复界面图片保护一致</p>
+<h2 id="32">3.2</h2>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[明日方舟签到系统拆分]]></title>
         <id>https://Deserter97.gitHub.io/post/ming-ri-fang-zhou-qian-dao-xi-tong-chai-fen</id>
         <link href="https://Deserter97.gitHub.io/post/ming-ri-fang-zhou-qian-dao-xi-tong-chai-fen">
         </link>
         <updated>2020-02-03T13:51:52.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>1.概述</strong><br>
-对每天登陆的玩家进行奖励，通过连续登陆奖励加倍，增加玩家每天登陆的欲望，希望玩家养成一个每天登陆游戏的习惯。<br>
-<strong>2.入口</strong><br>
-主界面左上角日历标志<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580738400394.png" alt="" loading="lazy"><br>
-<strong>3.开启条件</strong><br>
-1.每名玩家当天初次登陆游戏自动开启<br>
-2.玩家通过手动点击图标自行开启<br>
-<strong>4.功能流程</strong><br>
-4.1主界面<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580825456553.png" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<h1 id="1概述">1.概述</h1>
+<p>对每天登陆的玩家进行奖励，通过连续登陆奖励加倍，增加玩家每天登陆的欲望，希望玩家养成一个每天登陆游戏的习惯。</p>
+<h1 id="2入口">2.入口</h1>
+<p>主界面左上角日历标志<br>
+<img src="https://Deserter97.gitHub.io/post-images/1580738400394.png" alt="" loading="lazy"></p>
+<h1 id="3开启条件">3.开启条件</h1>
+<p>1.每名玩家当天初次登陆游戏自动开启<br>
+2.玩家通过手动点击图标自行开启</p>
+<h1 id="4功能流程">4.功能流程</h1>
+<h2 id="41主界面">4.1主界面</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580825456553.png" alt="" loading="lazy"><br>
 界面说明<br>
 1.签到月份：显示当前签到月份<br>
 2.签到次数：通过数字显示玩家当前月份所累积的签到次数，玩家通过签到次数获得对应的奖励<br>
@@ -38,9 +59,9 @@
 8.奖励图标：显示当前签到获得的奖励图标<br>
 9.签到状态：根据玩家是否签到显示当前签到状态<br>
 10.退出按钮：点击可退出当前界面<br>
-<em>玩家当日初次进入主界面后自动弹出签到页面进行签到</em><br>
-4.2签到状态<br>
-1.当日已签到<br>
+<em>玩家当日初次进入主界面后自动弹出签到页面进行签到</em></p>
+<h2 id="42签到状态">4.2签到状态</h2>
+<p>1.当日已签到<br>
 <img src="https://Deserter97.gitHub.io/post-images/1580829732030.png" alt="" loading="lazy"><br>
 <code>底层覆盖橙色图片，在其上打上白色对号</code><br>
 2.往日已签到<br>
@@ -51,11 +72,11 @@
 <code>图片正常显示</code><br>
 <code>图片左上角显示累积签到次数，右下角显示奖励数量，中间为奖励图标</code><br>
 UI层级关系<br>
-<code>签到次数&gt;白色对号&gt;灰色/层数图片&gt;奖励数量&gt;材料图标</code><br>
-4.3用户操作流程图<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580828591869.png" alt="" loading="lazy"><br>
-<strong>5.签到规则</strong><br>
-设定N为玩家签到次数,每月N初始值为0，D为本月最大签到次数<br>
+<code>签到次数&gt;白色对号&gt;灰色/层数图片&gt;奖励数量&gt;材料图标</code></p>
+<h2 id="43用户操作流程图">4.3用户操作流程图</h2>
+<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1580828591869.png" alt="" loading="lazy"></figure>
+<h1 id="5签到规则">5.签到规则</h1>
+<p>设定N为玩家签到次数,每月N初始值为0，D为本月最大签到次数<br>
 when(平常日 Time=04:00)<br>
 if(玩家进行签到)<br>
 {<br>
@@ -74,14 +95,14 @@ N=0;<br>
         <link href="https://Deserter97.gitHub.io/post/jian-yu-yuan-zheng-you-xi-fen-xi-yi">
         </link>
         <updated>2020-01-20T03:33:52.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>1.游戏脑图</strong><br>
-<img src="https://Deserter97.gitHub.io/post-images/1580823490044.png" alt="" loading="lazy"><br>
-<strong>2.游戏闭环</strong><br>
-<img src="https://Deserter97.gitHub.io/post-images/1580823499792.png" alt="" loading="lazy"><br>
-<strong>3.游戏受众群体</strong><br>
-放置挂机类游戏的操作简单，易于上手，比较耐玩，对玩家的时间要求更加碎片化，所以受众群体大多是游戏经验相对较少，或日常时间不算足够充裕的玩家<br>
-<strong>4.以挂机作为主要资源产出的优点与不足</strong><br>
-<strong>优点</strong>：以挂机作为主要资源产出会使游戏变得不那么肝，能够很好地满足日常时间不太充足玩的的游戏需求<br>
+        <content type="html"><![CDATA[<h1 id="1游戏脑图">1.游戏脑图</h1>
+<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1580823490044.png" alt="" loading="lazy"></figure>
+<h1 id="2游戏闭环">2.游戏闭环</h1>
+<figure data-type="image" tabindex="2"><img src="https://Deserter97.gitHub.io/post-images/1580823499792.png" alt="" loading="lazy"></figure>
+<h1 id="3游戏受众群体">3.游戏受众群体</h1>
+<p>放置挂机类游戏的操作简单，易于上手，比较耐玩，对玩家的时间要求更加碎片化，所以受众群体大多是游戏经验相对较少，或日常时间不算足够充裕的玩家</p>
+<h1 id="4以挂机作为主要资源产出的优点与不足">4.以挂机作为主要资源产出的优点与不足</h1>
+<p><strong>优点</strong>：以挂机作为主要资源产出会使游戏变得不那么肝，能够很好地满足日常时间不太充足玩的的游戏需求<br>
 <strong>不足</strong>：以挂机作为主要资源产出会降低用户的在线率，玩家需要间隔一段时间之后重新回到游戏中来进行角色的提升，同时挂机类游戏主要消耗的因素是时间，因此，新老玩家之间会有很明显的差距，新玩家想要追赶上老玩家之间的距离会变得很大</p>
 ]]></content>
     </entry>
@@ -99,8 +120,8 @@ N=0;<br>
 <h1 id="3开启条件">3.开启条件</h1>
 <p>每名玩家默认开启每日任务系统。</p>
 <h1 id="4功能流程">4.功能流程</h1>
-<p>4.1主界面<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580719638024.png" alt="" loading="lazy"><br>
+<h2 id="41主界面">4.1主界面</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1580719638024.png" alt="" loading="lazy"><br>
 界面说明<br>
 每日任务</p>
 <ul>
@@ -125,9 +146,9 @@ N=0;<br>
 2.下方右侧显示两个周活跃度积分宝箱<br>
 <code>固定显示周活跃积分500与1000</code></li>
 </ul>
-<h1 id="42任务">4.2任务</h1>
-<p>4.2.1任务内容<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580720686092.png" alt="" loading="lazy"></p>
+<h2 id="42任务">4.2任务</h2>
+<h3 id="421任务内容">4.2.1任务内容</h3>
+<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1580720686092.png" alt="" loading="lazy"></figure>
 <ul>
 <li>图标<br>
 1.以下方任务类型对图标进行风格区分</li>
@@ -141,9 +162,11 @@ N=0;<br>
 1.默认分母进度配置<br>
 2.分子显示当前完成进度</li>
 <li>前往跳转<br>
-<em>详见—4.2.3任务跳转</em><br>
-4.2.2任务类型<br>
-4.2.2.1</li>
+<em>详见—4.2.3任务跳转</em></li>
+</ul>
+<h3 id="422任务类型">4.2.2任务类型</h3>
+<h4 id="4221">4.2.2.1</h4>
+<ul>
 <li>活跃任务<br>
 1.登陆<br>
 <code>*默认可领取，提醒玩家进来查看任务列表，开始进行今天的目标*</code><br>
@@ -163,17 +186,21 @@ N=0;<br>
 <li>月卡<br>
 钻石月卡/周卡<br>
 铭文月卡/周卡<br>
-<code>月卡部分，是已经购买对应的月卡玩家，可以以任务的形式，在这个功能里领取对应奖励</code><br>
-4.2.2.2随机任务<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580722133948.png" alt="" loading="lazy"></li>
+<code>月卡部分，是已经购买对应的月卡玩家，可以以任务的形式，在这个功能里领取对应奖励</code></li>
+</ul>
+<h4 id="4222随机任务">4.2.2.2随机任务</h4>
+<figure data-type="image" tabindex="2"><img src="https://Deserter97.gitHub.io/post-images/1580722133948.png" alt="" loading="lazy"></figure>
+<ul>
 <li>随机任务<br>
 1.配置一组任务，每日随机抽出其中一个，显示在任务列表内<br>
 <code>偏上的位置，方便玩家点进来看到</code><br>
 <code>标题要标橙（特殊显示）</code></li>
 <li>主要目的<br>
 1.给不同玩家每天一个随机的目标追求，制造差异性<br>
-2.放置大量玩家在一个对局中刷同一个任务<br>
-4.2.3任务跳转</li>
+2.放置大量玩家在一个对局中刷同一个任务</li>
+</ul>
+<h3 id="423任务跳转">4.2.3任务跳转</h3>
+<ul>
 <li>任务跳转<br>
 1.没完成的任务，会有“前往”按钮<br>
 2.点击可以跳转可进行任务的对应界面</li>
@@ -185,8 +212,10 @@ N=0;<br>
 1.可领取状态<br>
 <img src="https://Deserter97.gitHub.io/post-images/1580722420712.png" alt="" loading="lazy"><br>
 2.已领取状态<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580722468050.png" alt="" loading="lazy"><br>
-4.2.4任务流程</li>
+<img src="https://Deserter97.gitHub.io/post-images/1580722468050.png" alt="" loading="lazy"></li>
+</ul>
+<h3 id="424任务流程">4.2.4任务流程</h3>
+<ul>
 <li>玩家可以点击跳转按钮，跳转到对应页面，从而完成先要完成的任务内容<br>
 1.不通过点击“前往”按钮，也可以完成任务<br>
 2.前往按钮只是一种方便玩家跳转的操作</li>
@@ -223,9 +252,11 @@ N=0;<br>
 <code>下方显示领取需求，领取获得奖励，概率获得奖励</code></li>
 <li>领取奖励<br>
 1.“可领取”状态时，会有闪烁光效，提示点击<br>
-2.点击直接领取，不能查看<br>
-4.4每周宝箱<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580722988622.png" alt="" loading="lazy"></li>
+2.点击直接领取，不能查看</li>
+</ul>
+<h2 id="44每周宝箱">4.4每周宝箱</h2>
+<figure data-type="image" tabindex="3"><img src="https://Deserter97.gitHub.io/post-images/1580722988622.png" alt="" loading="lazy"></figure>
+<ul>
 <li>每周活跃度<br>
 1.玩家每次完成每日任务后，领取的每日活跃度，处理填充每日活跃条外，也复制该数值，记录并加入本周活跃度内</li>
 <li>每周宝箱<br>
@@ -239,16 +270,16 @@ N=0;<br>
 <li>重置时间<br>
 1.每日活跃，宝箱，每日5点重置<br>
 2.周活跃，宝箱，每周一5点重置<br>
-3.奖励错过便无法领取<br>
-#6.小红点提示<br>
-1.有可领取奖励的任务或宝箱，未领取时，外侧入口会有小红点提示<br>
-2.小红点会标记可领取数量<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580723131895.png" alt="" loading="lazy"><br>
-#7.日志记录<br>
-<code>记录玩家领取任务奖励</code><br>
-<code>记录玩家领取每日宝箱奖励</code><br>
-<code>记录玩家领取每周宝箱奖励</code></li>
+3.奖励错过便无法领取</li>
 </ul>
+<h1 id="6小红点提示">6.小红点提示</h1>
+<p>1.有可领取奖励的任务或宝箱，未领取时，外侧入口会有小红点提示<br>
+2.小红点会标记可领取数量<br>
+<img src="https://Deserter97.gitHub.io/post-images/1580723131895.png" alt="" loading="lazy"></p>
+<h1 id="7日志记录">7.日志记录</h1>
+<p><code>记录玩家领取任务奖励</code><br>
+<code>记录玩家领取每日宝箱奖励</code><br>
+<code>记录玩家领取每周宝箱奖励</code></p>
 ]]></content>
     </entry>
     <entry>

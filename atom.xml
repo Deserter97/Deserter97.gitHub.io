@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-06T10:59:01.293Z</updated>
+    <updated>2020-02-06T11:01:42.912Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -262,7 +262,7 @@ N=0;<br>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[聊天系统策划案]]></title>
+        <title type="html"><![CDATA[聊天系统]]></title>
         <id>https://Deserter97.gitHub.io/post/liao-tian-xi-tong-ce-hua-an</id>
         <link href="https://Deserter97.gitHub.io/post/liao-tian-xi-tong-ce-hua-an">
         </link>
@@ -271,8 +271,8 @@ N=0;<br>
 <p>1.设计目的：网络游戏中聊天系统是玩家交互的重要系统，一个好的聊天系统可以促进玩家之间的交流，加强玩家之间的信息互动，增强玩家之间的感情<br>
 2.要求：能够满足好友之间的聊天，陌生人之间的聊天，游戏大厅喊话功能等，同时还要防止玩家恶意刷屏和广告以及违禁信息屏蔽</p>
 <h1 id="2聊天系统基本功能">2.聊天系统基本功能</h1>
-<p>2.1聊天窗口显示所有功能<br>
-<code>界面设计</code></p>
+<h2 id="21聊天窗口显示所有功能">2.1聊天窗口显示所有功能</h2>
+<p><code>界面设计</code></p>
 ]]></content>
     </entry>
     <entry>

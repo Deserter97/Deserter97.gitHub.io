@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-06T13:23:10.106Z</updated>
+    <updated>2020-02-07T15:27:27.637Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -53,7 +53,7 @@
 UI层级关系<br>
 <code>签到次数&gt;白色对号&gt;灰色/层数图片&gt;奖励数量&gt;材料图标</code></p>
 <h2 id="43用户操作流程图">4.3用户操作流程图</h2>
-<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1580828591869.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1581088080822.png" alt="" loading="lazy"></figure>
 <h1 id="5签到规则">5.签到规则</h1>
 <p>设定N为玩家签到次数,每月N初始值为0，D为本月最大签到次数<br>
 when(平常日 Time=04:00)<br>
@@ -269,6 +269,75 @@ N=0;<br>
 <p><code>记录玩家领取任务奖励</code><br>
 <code>记录玩家领取每日宝箱奖励</code><br>
 <code>记录玩家领取每周宝箱奖励</code></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[签到功能策划案]]></title>
+        <id>https://Deserter97.gitHub.io/post/qian-dao-gong-neng-ce-hua-an</id>
+        <link href="https://Deserter97.gitHub.io/post/qian-dao-gong-neng-ce-hua-an">
+        </link>
+        <updated>2019-11-21T12:34:15.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1概述">1.概述</h1>
+<h2 id="11设计目的">1.1设计目的</h2>
+<p>对每天都进行游戏登陆的玩家的奖励，通过连续累积登陆次数获得翻倍的奖励，提高玩家每天登陆游戏的欲望，培养玩家每天登陆游戏的习惯。同时增加月卡用户或高级VIP用户的奖励，借此来刺激玩家消费</p>
+<h2 id="12期望效果">1.2期望效果</h2>
+<p>通过签到系统提升玩家每天的游戏活跃度，增加游戏的粘稠度，提高玩家的留存率与玩家的付费率</p>
+<h1 id="2系统介绍">2.系统介绍</h1>
+<h2 id="21系统简介">2.1系统简介</h2>
+<p>玩家每日首次登陆游戏签到界面自动弹出，并自动进行签到，通过每日登陆可以领取的奖励：<br>
+1.每日登陆奖励<br>
+2.月卡用户双倍奖励<br>
+3.连续登陆达到一定次数获得累积登陆奖励</p>
+<h2 id="22签到规则">2.2签到规则</h2>
+<ul>
+<li>每日签到奖励领取规则：<br>
+1.签到规则：玩家每日第一次手动进入游戏，游戏会自动弹出签到界面并自动签到发放签到奖励<br>
+2.时间规则：每日的00:00:00到23:59:59为一个自然日的签到时间<br>
+3.签到限制：完成教学任务的所有玩家</li>
+<li>累积签到奖励领取规则：<br>
+1.每月签到从月初00:00:00开始到月末23:59:59结束，至多可连续签到28次，每名玩家累积进行28次签到后则无法再继续进行签到，每当一个自然月结束后签到重置，玩家可以重新进行签到<br>
+2.每月累积签到5/15/25次后，即可领取累积签到奖励，每月累积签到奖励只可领取一次，玩家领取之后直到次月签到重置连续签到达到要求后才可再次领取<br>
+3.玩家每日初次登陆游戏算一次签到，如果玩家在第一次签到之后间隔一段几天之后再次登陆游戏算第二次签到，例如玩家A今天初次登陆游戏签到一次，之后间隔一周再次登陆游戏为第二次签到，签到不按照日期，为次数的累积</li>
+</ul>
+<h2 id="23双倍签到奖励规则">2.3双倍签到奖励规则</h2>
+<p>1.每月签到中，固定物品，只有月卡用户玩家可以领取双倍奖励<br>
+2.双倍奖励可以在玩家当日充值月卡后进行补领，例如玩家当日签到后充值了月卡，会发送邮件对玩家的签到奖励进行补发</p>
+<h2 id="24累积签到算法">2.4累积签到算法</h2>
+<p>设累积签到次数为N<br>
+int N=0;<br>
+if（自然日 Time=24:00 &amp;&amp; N&lt;=28）<br>
+{<br>
+if（玩家每日第一次登陆游戏）<br>
+N+=1；<br>
+}<br>
+if（当前时刻为每月最后一日 Time = 24:00）<br>
+{<br>
+累积签到次数清零；<br>
+}</p>
+<h1 id="3签到功能图标显示位置">3.签到功能图标显示位置</h1>
+<p>显示在游戏主界面左上角，注意UI大小，玩家每日首次登陆自动弹出完整界面，点击签到图标按钮也可弹出完整界面</p>
+<h1 id="4界面详情">4.界面详情</h1>
+<h2 id="41界面ui设计及功能介绍">4.1界面UI设计及功能介绍</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1581087255156.png" alt="" loading="lazy"><br>
+1.签到月份：显示当前签到月份<br>
+2.签到次数：通过数字显示玩家当前月份所累积的签到次数，玩家通过签到次数获得对应的奖励<br>
+3.功能描述：告知玩家此功能模块的作用<br>
+4.刷新时间：通过倒计时的方式告知玩家下一次签到需要间隔多久，媒体那六点重置为24小时<br>
+5.奖励名称：显示当前签到获取的奖励名称<br>
+6.奖励数量：显示当前签到获得的奖励数量<br>
+7.奖励图标：显示当前签到获得的奖励图标<br>
+8.签到状态：根据玩家是否签到显示当前签到状态<br>
+9.累积签到宝箱：显示三个累积签到宝箱，分为5/15/25次累积签到宝箱，玩家累积达到足够次数可点击领取累积奖励<br>
+10.退出按钮：点击可退出当前界面</p>
+<h1 id="5程序需求">5.程序需求</h1>
+<h2 id="51逻辑流程图">5.1逻辑流程图</h2>
+<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1581088431569.png" alt="" loading="lazy"></figure>
+<h1 id="6美术需求">6.美术需求</h1>
+<p>1.绘制符合游戏风格的签到界面背景图片<br>
+2.累积签到宝箱样式与开启特效<br>
+3.设计符合游戏风格的UI边框并对所有内容进行美化<br>
+4.为签到界面弹出添加特效<br>
+5.对往日已签到今日签到未签到进行区分</p>
 ]]></content>
     </entry>
     <entry>
@@ -495,15 +564,6 @@ N=0;<br>
         </link>
         <updated>2019-10-04T11:41:18.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1580730088107.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[基础认知]]></title>
-        <id>https://Deserter97.gitHub.io/post/ji-chu-ren-zhi</id>
-        <link href="https://Deserter97.gitHub.io/post/ji-chu-ren-zhi">
-        </link>
-        <updated>2019-10-01T12:25:38.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1580730317004.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>

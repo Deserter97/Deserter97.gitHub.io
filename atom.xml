@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-08T13:35:06.549Z</updated>
+    <updated>2020-02-08T13:36:54.763Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -659,22 +659,61 @@ if（当前时刻为每月最后一日 Time = 24:00）<br>
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Apex]]></title>
+        <id>https://Deserter97.gitHub.io/post/apex</id>
+        <link href="https://Deserter97.gitHub.io/post/apex">
+        </link>
+        <updated>2019-09-14T12:53:30.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="1游戏概述">1.游戏概述</h1>
+<p>Apex是一款FPS大逃杀类游戏，玩家可在其中控制英雄角色进行战斗，每一个角色都有着不同的技能，相对其他的大逃杀游戏重心更加偏向战斗</p>
+<h1 id="2优点">2.优点</h1>
+<ul>
+<li>交互<br>
+1.Apex有着很成熟的信号交流系统，玩家可以再无声状态下快速交互，互相回应，同时也避免了战斗时，玩家之间信息交流率低的缺点（标记敌人，标记建筑等）</li>
+<li>角色差异化<br>
+1.玩家控制个色鲜明的英雄角色，并且其中的英雄角色技能大部分都是其间接效果的，借助英雄技能制造己方优势，想要取得胜利还是需要依靠策略与玩家个人技术<br>
+2.玩家的定位并不会被角色类型限制，没有一个角色是一个队伍中不可缺少的，选择怎样的角色配置只是为了选择不同的玩法</li>
+<li>游戏节奏快，长TTK（Time To Kill）<br>
+1.疾跑，滑步等操作加快了游戏整体进行的节奏，同时游戏的搜索时间与战斗时间都变得相对短，降低玩家再次开局的成本<br>
+2.游戏中对枪械攻击力降低人物高护甲值的设定很大程度减少玩家被秒杀的情况</li>
+<li>玩家体验优化，参与感增强，挫败感减弱<br>
+1.游戏设计了默认跟随跳伞，避免因为玩家操作失误而与队伍分离<br>
+2.角色濒死时间90s，濒死状态有护盾，死亡后可以复活给玩家带来极强的参与感，使玩家不会轻易放弃<br>
+3.地图偏小，场景相对不复杂，避免了玩家苟下去的想法，加强了玩家之间的遭遇，强化了战斗</li>
+</ul>
+<h1 id="3不足">3.不足</h1>
+<ul>
+<li>上手难度高<br>
+Apex地图小，节奏快，对于刚接触游戏的新手来说，并没有足够的时间去熟悉游戏，同时英雄角色的技能更偏向战术层次，新手玩家很难去把握合理的时机去释放技能</li>
+<li>内容少<br>
+游戏更新频率慢，游戏中新英雄的制作速度与新地图的制作速度很难满足玩家的需求，这会导致玩家对单一内容的审美疲劳</li>
+<li>外挂<br>
+打击力度不够，因此游戏外挂泛滥，导致玩家游戏体验极差</li>
+</ul>
+<h1 id="4同类游戏对比">4.同类游戏对比</h1>
+<h2 id="41pubg">4.1PUBG</h2>
+<ul>
+<li>PUBG的游戏节奏更加缓慢，游戏中玩家搜寻物资的时间远远大于玩家之间战斗的时间，游戏中心更加偏向战略</li>
+<li>PUBG单局游戏时间长，死亡玩家不允许复活，TTk短，死亡成本极高，这也就导致玩家短时间内多次死亡所收获的游戏体验为零</li>
+</ul>
+<h2 id="42堡垒之夜">4.2堡垒之夜</h2>
+<ul>
+<li>堡垒之夜中玩家可以搭建防御建筑，使得游戏的内容与玩法变得极为丰富</li>
+<li>游戏的操作上限高，也就很容易发生新手玩家被老玩家虐的现象</li>
+</ul>
+<h1 id="5改进">5.改进</h1>
+<p>1.增加游戏的内容例如新英雄或新地图<br>
+2.治理外挂，加大打击力度<br>
+3.添加引导人机模式对新手玩家进行引导</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[游戏开发团队]]></title>
         <id>https://Deserter97.gitHub.io/post/you-xi-kai-fa-tuan-dui</id>
         <link href="https://Deserter97.gitHub.io/post/you-xi-kai-fa-tuan-dui">
         </link>
-        <updated>2019-10-13T12:30:28.000Z</updated>
+        <updated>2019-09-09T12:30:28.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Deserter97.gitHub.io/post-images/1580733054456.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[策划具有的能力]]></title>
-        <id>https://Deserter97.gitHub.io/post/ce-hua-ju-you-de-neng-li</id>
-        <link href="https://Deserter97.gitHub.io/post/ce-hua-ju-you-de-neng-li">
-        </link>
-        <updated>2019-10-09T11:22:15.000Z</updated>
-        <content type="html"><![CDATA[<p>关于策划的思考<br>
-<img src="https://Deserter97.gitHub.io/post-images/1580729236327.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>

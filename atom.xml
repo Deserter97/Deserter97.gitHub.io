@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-07T15:52:05.760Z</updated>
+    <updated>2020-02-08T04:02:02.527Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -544,7 +544,51 @@ if（当前时刻为每月最后一日 Time = 24:00）<br>
         <link href="https://Deserter97.gitHub.io/post/guan-yu-mmo-zhong-pve-yu-pvp-de-si-kao">
         </link>
         <updated>2019-10-16T15:50:44.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="1">1.</h1>
+        <content type="html"><![CDATA[<h1 id="1基本概念">1.基本概念</h1>
+<h2 id="11pve">1.1PVE</h2>
+<ul>
+<li>Player VS Environment</li>
+<li>玩家与游戏系统之间的互动</li>
+<li>基于自我中心的设计理念</li>
+<li>单人游戏性</li>
+<li>它代表着玩家的成长体验，事件体验，剧情体验。代表着玩家对未知的探索，对内容的欣赏，对成长的欲望</li>
+</ul>
+<h2 id="12pvp">1.2PVP</h2>
+<ul>
+<li>Player VS Player</li>
+<li>玩家之间的互动</li>
+<li>基于社会模型的设计理念</li>
+<li>多人游戏性</li>
+<li>它代表着玩家之间的各种形式的交流互动，代表着各种操作互动和复杂的人际关系<br>
+<em>PVP是网络游戏独有的特性，也是网络游戏的核心魅力所在</em></li>
+</ul>
+<h1 id="2pvp的认知">2.PVP的认知</h1>
+<h2 id="21广义">2.1广义</h2>
+<p>广义的PVP：整个游戏的玩家利益互动关系，玩家之间互相的联系，例如游戏里面玩家之间的矛盾冲突，个人感情，合作竞争等</p>
+<h2 id="22狭义">2.2狭义</h2>
+<p>狭义的PVP：利用玩家操作互动设计出来的部分系统，或者单局系统</p>
+<h1 id="3个人观点">3.个人观点</h1>
+<h2 id="31忽视玩家的pve游戏体验会让游戏在早期失败">3.1忽视玩家的PVE游戏体验会让游戏在早期失败</h2>
+<ul>
+<li>对于一款新的游戏，很多玩家最初都是因为PVE而来的</li>
+<li>每个来玩游戏的玩家，都是来了解和熟悉这个虚拟世界的</li>
+<li>每名玩家在初始时期很少回去关注其他玩家，因为每个玩家最初都是在努力了解游戏世界，并没有太多精力去关注和影响别人</li>
+<li>任何一名玩家都是优先注重自身成长，之后才会去关注其他玩家</li>
+</ul>
+<h2 id="32合理有效的利用pvp特性可以给游戏带来更长的生命力">3.2合理有效的利用PVP特性可以给游戏带来更长的生命力</h2>
+<ul>
+<li>比较出名的一些网络游戏它们的乐趣都在于互动</li>
+<li>互动能制造永不重复的游戏体验，有谁会厌倦一个变化无常的玩法或者社会环境呢，毕竟竞争能够给世界带来活力</li>
+<li>玩家互动所收获的成就感强于PVE，战胜一个真人和战胜一个NPC的感觉是截然不同的。只要有成就感，设计师就有无穷的空间</li>
+<li>团队能给玩家带来倍增的体验，团队成就感能更胜于个人成就感，团队层面的互动能够带给玩家永不厌倦的追求</li>
+<li>互动层面越多，游戏将越富有变化，玩家之间联系将越多，游戏的粘稠性则会越大</li>
+</ul>
+<h1 id="4单纯的pve给游戏带来的影响">4.单纯的PVE给游戏带来的影响</h1>
+<ul>
+<li>PVE会使玩家的成长动力逐渐弱化，从而使玩家逐渐丧失目的性，使产品的付费形式单一化</li>
+<li>持续的PVE内容都会拥有一些相同的形式，因此新的内容依然会让玩家产生厌倦，并且产生厌倦的速度将越来越快，导致游戏生命周期缩短</li>
+<li>玩家对成长和体验两方面有着大量需求，对于开发团队来说是很不利的</li>
+</ul>
 ]]></content>
     </entry>
     <entry>

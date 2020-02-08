@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Deserter97.gitHub.io</id>
     <title>Deserter97</title>
-    <updated>2020-02-08T06:08:42.431Z</updated>
+    <updated>2020-02-08T12:49:16.616Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Deserter97.gitHub.io"/>
     <link rel="self" href="https://Deserter97.gitHub.io/atom.xml"/>
@@ -347,6 +347,73 @@ if（当前时刻为每月最后一日 Time = 24:00）<br>
         </link>
         <updated>2019-10-23T13:46:51.000Z</updated>
         <content type="html"><![CDATA[<h1 id="1概述">1.概述</h1>
+<h2 id="11设计目的">1.1设计目的</h2>
+<p>作为一种抽奖玩法，能够对玩家手中钻石起消耗作用，提升玩家对于钻石的需求，刺激玩家充值</p>
+<h1 id="2入口">2.入口</h1>
+<p>该功能可通过游戏商城进入<br>
+<img src="https://Deserter97.gitHub.io/post-images/1581149895914.png" alt="" loading="lazy"><br>
+进入商城后可以再商城菜单中点击夺宝功能进入<br>
+<img src="https://Deserter97.gitHub.io/post-images/1581149945979.png" alt="" loading="lazy"></p>
+<h1 id="3开启条件">3.开启条件</h1>
+<p>每名玩家默认开启该功能</p>
+<h1 id="4功能流程">4.功能流程</h1>
+<h2 id="41主界面">4.1主界面</h2>
+<p><img src="https://Deserter97.gitHub.io/post-images/1581162551317.png" alt="" loading="lazy"><br>
+界面说明<br>
+1.文字提示：提示玩家合理消费<br>
+2.特殊商店：当在钻石夺宝中抽取到稀有材料王者水晶是可在其中进行兑换特殊物品<br>
+3.货币显示：将当前玩家所拥有的的货币按照类型区分显示其拥有的数量<br>
+4.重置提示：对玩家每周抽取次数归零的倒计时提示<br>
+5.额外奖励：玩家通过累计抽奖次数可以获得额外的奖励<br>
+6.抽奖条件：抽奖消耗物品与一次性抽奖次数显示<br>
+7.奖池：玩家可抽取的物品<br>
+8.幸运值：玩家每次抽奖如果没有抽到稀有物品则会累积一次幸运值，当幸运值达到一定数值是则必定能抽中稀有物品<br>
+9.退出按钮：点击按钮可退回到主界面</p>
+<h1 id="42额外奖励">4.2额外奖励</h1>
+<ul>
+<li>累计次数<br>
+<code>玩家每进行一次抽奖，则会累积一次抽奖次数，当抽奖次数累积达到定值时，则可以领取额外奖励</code></li>
+<li>宝箱奖励<br>
+<code>根据抽奖次数分为五个宝箱奖励，区分为5/12/24/42/72</code><br>
+<code>每个进度对应配置一个宝箱奖励</code></li>
+<li>宝箱流程<br>
+1.进度填充<br>
+<code>进行抽奖时会刷新左侧累积次数显示</code><br>
+<code>累积次数会一直累积不设上限</code><br>
+<code>达到对应次数会点亮对应宝箱</code><br>
+2.宝箱装态<br>
+<code>未达到 可领取 已领取</code><br>
+3.查看奖励<br>
+<code>玩家在“未达到”和“已领取”状态下点击宝箱可以查看奖励</code><br>
+<img src="https://Deserter97.gitHub.io/post-images/1581165132776.png" alt="" loading="lazy"><br>
+<code>上方显示累积抽取次数</code><br>
+<code>中央显示宝箱奖励</code><br>
+<code>下方显示领取状态与抽奖按钮</code></li>
+<li>领取奖励<br>
+1.“可领取”状态时，宝箱会变成彩色<br>
+2.点击直接领取，不能查看</li>
+</ul>
+<h1 id="43幸运值">4.3幸运值</h1>
+<p><code>玩家可在夺宝界面中心查看当前幸运值</code><br>
+<img src="https://Deserter97.gitHub.io/post-images/1581165749322.png" alt="" loading="lazy"><br>
+1.进度填充<br>
+<code>每次抽奖是，若果玩家没有抽到稀有物品，则会累积幸运值</code><br>
+<code>幸运值具有上限，当玩家积累幸运值达到最大值，左侧石头图标会被填充完毕</code><br>
+2.用途<br>
+<code>幸运值只对稀有物品起作用</code><br>
+<code>幸运值越高则抽取稀有物品概率越大</code><br>
+<code>幸运值达到最大值则必定获得稀有物品</code></p>
+<h1 id="5规则汇总">5.规则汇总</h1>
+<ul>
+<li>额外奖励重置规则<br>
+1.额外奖励宝箱每周一12点重置<br>
+2.奖励错过便无法领取</li>
+<li>幸运值重置规则<br>
+1.玩家进行夺宝时，只要抽中稀有物品便重置幸运值</li>
+</ul>
+<h1 id="6日志记录">6.日志记录</h1>
+<p><code>记录玩家抽奖次数</code><br>
+<code>记录玩家领取额外奖励</code></p>
 ]]></content>
     </entry>
     <entry>
